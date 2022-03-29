@@ -47,7 +47,9 @@ export default {
       jsnext: true,
       extensions,
     }),
-    typescript(),
+    typescript({
+      exclude: ['**/*.stories.*'],
+    }),
     commonjs(),
     babel({
       include: ['src/**/*'],
