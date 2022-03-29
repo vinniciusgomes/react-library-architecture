@@ -9,7 +9,11 @@ module.exports = {
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
   },
-  collectCoverageFrom: ['src/**/*.tsx'],
+  collectCoverageFrom: [
+    'src/**/*.tsx',
+    '!<rootDir>/node_modules/',
+    '!src/**/*.stories.tsx',
+  ],
   reporters: ['default'],
   coverageReporters: ['cobertura', 'text', 'lcov'],
   coverageThreshold: {
