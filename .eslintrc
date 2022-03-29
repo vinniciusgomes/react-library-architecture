@@ -10,6 +10,8 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "@typescript-eslint/no-unused-vars": "off"
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-unsafe-optional-chaining": "off",
+    "no-nonoctal-decimal-escape": "off"
   }
 }
