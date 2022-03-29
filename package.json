@@ -8,7 +8,7 @@
     "dev": "parcel demo/index.html",
     "clean": "rimraf lib test-results coverage .cache",
     "clean:all": "rimraf lib test-results coverage node_modules",
-    "test": "cross-env NODE_ICU_DATA=node_modules/full-icu NODE_ENV=test jest --verbose --env=jsdom --coverage",
+    "test": "cross-env NODE_ENV=test jest --verbose --env=jsdom --coverage",
     "pre:test": "npm run clean",
     "build": "rollup -c",
     "build:types": "tsc --emitDeclarationOnly --skipLibCheck",

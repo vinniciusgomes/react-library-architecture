@@ -10,7 +10,7 @@ module.exports = {
     '^.+\\.tsx?$': 'ts-jest',
   },
   collectCoverageFrom: ['src/**/*.tsx'],
-  reporters: ['default', 'jest-junit'],
+  reporters: ['default'],
   coverageReporters: ['cobertura', 'text', 'lcov'],
   coverageThreshold: {
     global: {
@@ -25,4 +25,4 @@ module.exports = {
       diagnostics: false,
     },
   },
-};
+}
