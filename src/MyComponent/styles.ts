@@ -1,12 +1,11 @@
-import styled from 'styled-components'
+import { styled } from '@stitches/react'
 
-export const MyComponentStyled = styled.div`
-  width: 100%;
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #000;
-  font-size: 2em;
-`
+export const Button = styled('button', {
+  backgroundColor: 'gainsboro',
+  borderRadius: '9999px',
+  fontSize: '13px',
+  padding: '10px 15px',
+  '&:hover': {
+    backgroundColor: 'lightgray',
+  },
+})

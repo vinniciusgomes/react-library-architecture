@@ -1,5 +1,5 @@
 {
-  "name": "archref-lib-typescript",
+  "name": "react-ts-library-template",
   "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
@@ -21,7 +21,7 @@
   "license": "ISC",
   "peerDependencies": {
     "react": "^17.0.2",
-    "styled-components": "^5.3.5"
+    "@stitches/react": "^1.2.7"
   },
   "devDependencies": {
     "@babel/core": "7.17.8",
@@ -41,8 +41,6 @@
     "@types/jest": "27.4.1",
     "@types/react": "17.0.43",
     "@types/react-dom": "^17.0.14",
-    "@types/styled-components": "5.1.24",
-    "@types/styled-system": "^5.1.15",
     "@typescript-eslint/eslint-plugin": "5.17.0",
     "@typescript-eslint/parser": "5.17.0",
     "babel-eslint": "^10.1.0",
@@ -62,19 +60,15 @@
     "rollup": "2.70.1",
     "rollup-plugin-smart-asset": "^2.1.2",
     "semver": "^7.3.5",
-    "styled-components": "5.3.5",
-    "styled-system": "^5.1.5",
+    "@stitches/react": "^1.2.7",
     "ts-jest": "27.1.4",
     "typescript": "4.6.3"
-  },
-  "jest-junit": {
-    "outputDirectory": "./test-results/",
-    "outputName": "./junit-jest.xml"
   },
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint",
       "pre-push": "npm test"
     }
-  }
+  },
+  "dependencies": {}
 }
