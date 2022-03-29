@@ -46,6 +46,6 @@ interface MyComponentProps {
 - Usage
 
 ```tsx
-import { MyComponent } from 'react-ts-library-template'
+import { MyComponent } from 'react-library-architecture'
 ;<MyComponent>valid-text</MyComponent>
 ```

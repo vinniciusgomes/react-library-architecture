@@ -1,5 +1,5 @@
 {
-  "name": "@vinniciusgomes/react-ts-library-template",
+  "name": "@vinniciusgomes/react-library-architecture",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/vinniciusgomes"
   },
