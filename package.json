@@ -1,5 +1,8 @@
 {
-  "name": "react-ts-library-template",
+  "name": "@vinniciusgomes/react-ts-library-template",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/vinniciusgomes"
+  },
   "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
