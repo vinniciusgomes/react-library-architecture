@@ -1,4 +1,28 @@
-# Architecture Reference for Library using Typescript
+<h1 align="center">
+  <br>
+  <a><img src="https://raw.githubusercontent.com/vinniciusgomes/react-architecture/master/.github/architecture.png" alt="logo" width="100%"></a>
+  <br>
+</h1>
+
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vinniciusgomes/react-library-architecture">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/vinniciusgomes/react-library-architecture">
+
+  <a href="https://github.com/vinniciusgomes/react-library-architecture/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vinniciusgomes/react-library-architecture">
+  </a>
+
+  <a href="https://github.com/vinniciusgomes/react-library-architecture/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/vinniciusgomes/react-library-architecture.svg">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+
+   <a href="https://github.com/vinniciusgomes/react-library-architecture/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/vinniciusgomes/react-library-architecture?style=social">
+  </a>
+</p>
 
 ## Principles
 
