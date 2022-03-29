@@ -1,10 +1,10 @@
 import React, { FC } from 'react'
-import testId from '../helpers/testId'
 
+import testId from '../../helpers/testId'
 import { MyComponentProps } from './interfaces'
 
-import { Button } from './styles'
+import * as S from './styles'
 
 export const MyComponent: FC<MyComponentProps> = React.memo(({ children }) => {
-  return <Button {...testId('my-component-wrapper')}>{children}</Button>
+  return <S.Button {...testId('my-component-wrapper')}>{children}</S.Button>
 })
